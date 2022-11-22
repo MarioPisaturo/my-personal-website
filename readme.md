@@ -19,7 +19,7 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 ## Preview
 
-https://eleventy-excellent.netlify.app/
+https:///mariopisaturo.netlify.app
 
 ## Features
 
@@ -38,7 +38,7 @@ This starter includes:
 
 ## First steps
 
-- Search and replace 'eleventy-excellent.netlify.app' with your own domain.
+- Search and replace '/mariopisaturo.netlify.app/' with your own domain.
 - Set your icons in assets/images/favicon
 - edit meta data in \_data/meta.js
 - edit your social media in \_data/social.js and \_includes/icons. Icons must be prefixed with "social-".

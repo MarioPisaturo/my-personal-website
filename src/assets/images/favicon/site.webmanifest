@@ -1,7 +1,7 @@
 {
   "name": "Mario Pisaturo - Personal website",
   "short_name": "MP personal website",
-  "start_url": "https://eleventy-excellent.netlify.app",
+  "start_url": "https://mariopisaturo.netlify.app/",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
