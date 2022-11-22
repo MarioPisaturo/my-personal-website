@@ -10,6 +10,7 @@ module.exports = {
     }
   ],
   bottom: [
+    /*
     {
       text: 'Imprint',
       url: '/imprint/'
@@ -18,5 +19,6 @@ module.exports = {
       text: 'Privacy',
       url: '/privacy/'
     }
+    */
   ]
 };

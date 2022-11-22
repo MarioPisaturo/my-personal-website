@@ -1,21 +1,28 @@
 ---
 title: About
 permalink: /about/index.html
-description: About this starter
+description: About this website
 layout: page
 youtube: true
 ---
+### Bio
 
-Based on the companion website of Andy Bell's talk 'Be the browser’s mentor, not its micromanager'.
-An approach that promotes modern CSS with methodologies, fluid type & space, flexible Layouts and Progressive Enhancement.
+I am a software engineer and web performance ark at IBM, where I work in order to help our costumers solve some fascinating performance challenges.
+Previously I worked at Sky It; there I used to help make their sites faster for million of users.
 
-This starter exists to hopefully spread the use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
+Im 30 something, specialized in javascript, typescript and web development.
 
-- Find out more on https://buildexcellentwebsit.es/.
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
+I live somewhere in Italy.
 
+Other interests:
+– Electric Guitar 🎸
+– Cycling 🚵
+– Hiking ⛰️
+– Books 📚
+– Education 👨‍🏫
+– Nature 🍂
+
+
+<!-- 
 Edit your preferences in `assets/css/design-tokens`.
-
-## Watch the talk
-
-{% youtube '5uhIiI9Ld5M', 'Andy Bell – Be the browser’s mentor, not its micromanager' %}
+ !-->

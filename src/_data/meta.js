@@ -3,19 +3,17 @@ const package = require('../../package.json');
 module.exports = {
   pkv: package.version || 'v1',
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'Eleventy Excellent',
+  siteName: 'Home',
   siteDescription:
-    "Eleventy starter based on the workflow suggested by Andy Bell's https://buildexcellentwebsit.es/.",
+    "Personal website based on 11ty, also based on the workflow suggested by Andy Bell's https://buildexcellentwebsit.es/.",
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
   skipContent: 'Skip to content',
-  author: 'Author name',
-  authorEmail: 'hola@authormail.com',
-  authorWebsite: 'https://www.authorsite.com',
+  author: 'Mario Pisaturo',
+  authorEmail: '',
+  authorWebsite: '',
   meta_data: {
-    twitterSite: '@twitterorg',
-    twitterCreator: '@twitterauthor',
     opengraph_default: '/assets/images/opengraph-default.jpg'
   },
   pagination: {
