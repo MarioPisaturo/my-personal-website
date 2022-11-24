@@ -3,15 +3,16 @@ title: About
 permalink: /about/index.html
 description: About this website
 layout: page
-youtube: false
+youtube: true
 ---
 ### Bio
 
-I am a software engineer and web performance architect at IBM where I work in order to help our costumers solve some fascinating performance challenges. I enjoy working as facilitator and mentor in my org.
+I am a software engineer and web performance architect at IBM where I work in order to help our costumers solve some fascinating performance challenges.
 Previously I worked at Sky It; there I used to help make their sites faster for million of users.
 
 Im 30 something, specialized in javascript, typescript and web development.
 
+I live somewhere in Italy.
 
 Other interests:
 – Electric Guitar 🎸
