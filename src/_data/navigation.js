@@ -18,7 +18,8 @@ module.exports = {
     },
     {
       text: 'Mastodon',
-      url: 'https://webperf.social/@mariopisaturo'
+      url: 'https://webperf.social/@mariopisaturo',
+      rel: 'me'
     }
   ],
   bottom: [
