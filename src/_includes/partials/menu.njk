@@ -13,7 +13,9 @@
         |
         safe
         }}
-        {% if item.rel %} {{ rel = "{{item.rel}}" }}{% endif %}
+        {% if item.rel %} 
+          rel = "{{item.rel}}"
+        {% endif %}
         >{{ item.text }}</a
       >
     </li>
