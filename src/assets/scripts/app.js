@@ -1,3 +1,12 @@
+// --------- SERVICE Worker
+window.addEventListener('load', () => {
+  // Install Service Worker only on production
+    console.log('install service worker!');
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js');
+    }
+});
+
 // ------------------- cards redundant click, accessible whole card clickable solution by Heydon Pickering
 
 const cards = [...document.querySelectorAll('.card')];
