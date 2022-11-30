@@ -3,53 +3,99 @@ title: Page not available while offline
 permalink: offline-fallback.html
 ---
 
-<p><strong>It looks like the connection is lost</strong>, and the page you're trying to get in not in your cache.</p>
-<p>While waiting for connexion, you can still read some pages available offline:</p>
-<ul id="cached"></ul>
-
-<script>
-  const cachedElement = document.querySelector('#cached');
-  window.caches
-    .open("pages")
-    .then(cache => {
-      return cache.keys();
-    })
-    .then(requests => {
-      requests.forEach(request => {
-        const requestUrl = new URL(request.url);
-        const requestPath = requestUrl.pathname;
-        addRequestToList(request);
-      });
-    });
-  function addRequestToList(request) {
-    const requestUrl = new URL(request.url);
-    const requestPath = requestUrl.pathname;
-    window.caches.open("pages").then(cache => {
-      cache.match(request).then(item => {
-        item.text().then(pageHtml => {
-          let pageDom = document.createElement("html");
-          pageDom.innerHTML = pageHtml;
-          let pageTitle = pageDom.querySelector("h1").innerText;
-          let linkElement = document.createElement("a");
-          linkElement.href = request.url;
-          linkElement.className = "u-url";
-          linkElement.textContent = pageTitle;
-          let pElement = document.createElement("p");
-          pElement.className = "card__title p-name";
-          pElement.appendChild(linkElement);
-          let liElement = document.createElement("li");
-          liElement.className = "list__item list__item--large";
-          liElement.appendChild(pElement);
-          if (pageDom.querySelector(".main footer")) {
-            let pageMeta = document.createElement("footer");
-            pageMeta.innerHTML = pageDom.querySelector(
-              ".main footer"
-            ).innerHTML;
-            liElement.appendChild(pageMeta);
-          }
-          cachedElement.appendChild(liElement);
-        });
-      });
-    });
-  }
-</script>
+<!DOCTYPE html>
+<html lang="{{ meta.lang }}">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta
+    http-equiv="X-UA-Compatible" content="ie=edge"/> <!-- fonts preload -->
+    <link rel="preload" href="/assets/fonts/inter/inter-v7-latin-500.woff2" as="font" type="font/woff2" crossorigin/>
+    <link
+      rel="preload"
+      href="/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin/>
+    <link
+    rel="stylesheet" href="/assets/css/global.css?{{ assetHash }}"/>
+    <!-- defer js  -->
+    <script type="module" src="/assets/app.js" defer></script>
+    <!--  Add facility for pages to declare an array of stylesheet paths -->
+    {% if pageStylesheets %}
+      {% for item in pageStylesheets %}
+        <link rel="stylesheet" media="print" href="{{ item }}?{{ assetHash }}" onload="this.media='all'"/>
+      {% endfor %}
+    {% endif %}
+  </head>
+  <body>
+    <!-- header -->
+    {% include "partials/header.njk" %}
+    <article class="region">
+      <div class="wrapper flow prose">
+        <h1 class="gradient-text">Connection lost!</h1>
+        <!-- content slot -->
+        <main id="main" class="flow">{{ content | safe }}
+          <p>
+            <strong>It looks like the connection is lost</strong>, and the page you're trying to get is not in your cache.</p>
+          <p>While waiting for connection, you can still read some pages and articles available offline:</p>
+          <ul id="cached"></ul>
+          <script>
+            const cachedElement = document.querySelector('#cached');
+            window
+              .caches
+              .open("pages")
+              .then(cache => {
+                return cache.keys();
+              })
+              .then(requests => {
+                requests.forEach(request => {
+                  const requestUrl = new URL(request.url);
+                  const requestPath = requestUrl.pathname;
+                  addRequestToList(request);
+                });
+              });
+            function addRequestToList(request) {
+              const requestUrl = new URL(request.url);
+              const requestPath = requestUrl.pathname;
+              window
+                .caches
+                .open("pages")
+                .then(cache => {
+                  cache.match(request).then(item => {
+                    item.text().then(pageHtml => {
+                      let pageDom = document.createElement("html");
+                      pageDom.innerHTML = pageHtml;
+                      let pageTitle = pageDom.querySelector("h1").innerText;
+                      let linkElement = document.createElement("a");
+                      linkElement.href = request.url;
+                      linkElement.className = "u-url";
+                      linkElement.textContent = pageTitle;
+                      let pElement = document.createElement("p");
+                      pElement.className = "card__title p-name";
+                      pElement.appendChild(linkElement);
+                      let liElement = document.createElement("li");
+                      liElement.className = "list__item list__item--large";
+                      liElement.appendChild(pElement);
+                      if (pageDom.querySelector(".main footer")) {
+                        let pageMeta = document.createElement("footer");
+                        pageMeta.innerHTML = pageDom.querySelector(".main footer").innerHTML;
+                        liElement.appendChild(pageMeta);
+                      }
+                      cachedElement.appendChild(liElement);
+                    });
+                  });
+                });
+            }
+          </script>
+        </main>
+      </div>
+    </article>
+    <!-- footer -->
+    {% include "partials/footer.njk" %}
+    <!-- youtube if actvated in yaml -->
+    {% if youtube %}
+      <script type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/lite-youtube@1.4.0/lite-youtube.min.js"></script>
+    {% endif %}
+  </body>
+</html>
