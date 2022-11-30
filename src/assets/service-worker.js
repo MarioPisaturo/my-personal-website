@@ -19,7 +19,7 @@ import {
 import { ExpirationPlugin } from 'workbox-expiration';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
 
-const OFFLINE_FALLBACK = '/offline-fallback.html';
+const OFFLINE_FALLBACK = '/pages/offline-fallback/index.html';
 
 precacheAndRoute(self.__WB_MANIFEST, {
   // Ignore all URL parameters:
