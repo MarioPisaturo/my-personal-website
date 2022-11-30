@@ -7,6 +7,7 @@ module.exports = {
     './',
     './site.webmanifest',
     './offline-fallback/index.html',
+    './assets/css/global.css' //This global.css is useful for online fallback page!
   ],
   dontCacheBustURLsMatching: new RegExp('.+.[a-f0-9]{8}..+'),
   swSrc: path.join(config.dir.dist, 'service-worker.js'),
