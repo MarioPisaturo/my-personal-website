@@ -6,7 +6,7 @@ module.exports = {
   globPatterns: [
     './',
     './site.webmanifest',
-    './pages/offline-fallback/index.html',
+    './offline-fallback/index.html',
   ],
   dontCacheBustURLsMatching: new RegExp('.+.[a-f0-9]{8}..+'),
   swSrc: path.join(config.dir.dist, 'service-worker.js'),
