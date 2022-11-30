@@ -19,7 +19,7 @@ Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <
 
 ## Preview
 
-https:///mariopisaturo.netlify.app
+https://mariopisaturo.netlify.app
 
 ## Features
 
