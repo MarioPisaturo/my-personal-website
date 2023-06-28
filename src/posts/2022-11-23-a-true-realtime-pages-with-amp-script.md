@@ -5,6 +5,9 @@ date: 2022-11-23
 ---
 So, if you want to use your fancy React component on a  AMP  page and you want to know how to do it I exhort you to join me on my journey so as to make it work well and make it production-ready.
 
+**Note**: This is a proof of concept. In production environments, additional configurations will be needed.
+
+
 ---
 
 ## AMP
