@@ -24,7 +24,7 @@ Ma che cosa c'entra tutto questo con le web performances? e in particolare con l
 
 Google:
 
-> …**great page experience involves more than Core Web Vitals**. Good stats within the Core Web Vitals report in Search Console or third-party Core Web Vitals reports don’t guarantee good rankings.   —  [Understanding page experience in Google Search results (https://developers.google.com/search/docs/appearance/page-experience)
+> …**great page experience involves more than Core Web Vitals**. Good stats within the Core Web Vitals report in Search Console or third-party Core Web Vitals reports don’t guarantee good rankings.   —  [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
  
 E' un dato di fatto che le ottimizzazioni SEO ci aiutano a far arrivare le persone sul nostro sito ma quello che fa la differenza per davvero, il fattore decisivo più importante affinchè questi naviganti si trasformino in clienti oppure meno è la loro esperienza mentre vi navigano.
 Migliorare le Core Web Vitals probabilmente migliorerà il posizionamento del nostro sito nei risultati di ricerca, ma ci sono innumerevoli altre ragioni per concentrarsi sulla velocità del sito al di là del solo aspetto SEO.
