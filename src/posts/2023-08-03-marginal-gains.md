@@ -6,6 +6,7 @@ date: 2023-08-03
 Le Core Web Vitals per l'ottimizzazione SEO: Cosa, prima di tutto, dobbiamo sapere?
 ---
 
+## Le  Core Web Vitals sono marginal gains! (e perchè dovrebbero interessare anche te)
 Quella dei marginal gains nello sport è una teoria ormai vecchia ma che conserva ancora inalterato tutto il suo fascino. In poche parole l'idea alla base dei marginal gains è che apportando una serie di piccole modifiche in diverse aree, è possibile ottenere un vantaggio cumulativo significativo.
 
 Questo concetto è diventato particolarmente noto grazie al British Cycling Team, che lo ha adottato come approccio chiave nei suoi successi olimpici e nel ciclismo su strada. Durante il periodo in cui Sir Dave Brailsford era il direttore sportivo del team britannico, ha introdotto la filosofia dei marginal gains. Ha enfatizzato l'importanza di migliorare ogni aspetto dell'esperienza ciclistica, inclusi l'allenamento, la dieta, l'attrezzatura, il recupero, la tecnologia e la mentalità dei corridori.
@@ -23,9 +24,8 @@ Ma che cosa c'entra tutto questo con le web performances? e in particolare con l
 
 Google:
 
-> …**great page experience involves more than Core Web Vitals**. Good stats within the Core Web Vitals report in Search Console or third-party Core Web Vitals reports don’t guarantee good rankings.  
-> —  [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
-> 
+> …**great page experience involves more than Core Web Vitals**. Good stats within the Core Web Vitals report in Search Console or third-party Core Web Vitals reports don’t guarantee good rankings.   —  [Understanding page experience in Google Search results (https://developers.google.com/search/docs/appearance/page-experience)
+ 
 E' un dato di fatto che le ottimizzazioni SEO ci aiutano a far arrivare le persone sul nostro sito ma quello che fa la differenza per davvero, il fattore decisivo più importante affinchè questi naviganti si trasformino in clienti oppure meno è la loro esperienza mentre vi navigano.
 Migliorare le Core Web Vitals probabilmente migliorerà il posizionamento del nostro sito nei risultati di ricerca, ma ci sono innumerevoli altre ragioni per concentrarsi sulla velocità del sito al di là del solo aspetto SEO.
 
@@ -33,12 +33,7 @@ Detto ciò sono davvero contento che Google con le core web vitals abbia messo l
 
 ## I migliori contenuti vincono sempre!
 
-> Google Search always seeks to show the most relevant content, even if
-> the page experience is sub-par. But for many queries, there is lots of
-> helpful content available. **Having a great page experience can
-> contribute to success in Search**, in such cases.   — [Understanding
-> page experience in Google Search
-> results](https://developers.google.com/search/docs/appearance/page-experience)
+> Google Search always seeks to show the most relevant content, even if the page experience is sub-par. But for many queries, there is lots of helpful content available. **Having a great page experience can contribute to success in Search**, in such cases.   — [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
 
 Se il tuo sito è insicuro, lento e offre una esperienza mobile pessima non importa! Verrà mostrato per primo se è esattamente ciò che l'utente sta cercando.  Questa affermazione può sembrare un po' rude ma è la realtà. Per quanto tu possa impegnarti a rendere il tuo sito veloce e attinente agli standard ciò che conta sopra ogni cosa è il contenuto!
 Bisogna tenere a mente che la missione di Google in ultima istanza non è quella di mostrare all'utente la lista dei siti più veloci in assoluto ma di rispondere in maniera il più esaustiva possibile alle richieste dell'utente.
@@ -51,19 +46,16 @@ Con ciò in mente possiamo tornare al concetto di partenza, ovvero, le Google We
   
 Anche se è vero che dobbiamo dare priorità ai contenuti migliori e più rilevanti, Google sottolinea comunque l'importanza delle web performances del sito:
 
-> We highly recommend site owners **achieve good Core Web Vitals** for
-> success with Search…   — [Understanding Core Web Vitals and Google
-> search
-> results](https://developers.google.com/search/docs/appearance/core-web-vitals)
+> We highly recommend site owners **achieve good Core Web Vitals** for success with Search…   — [Understanding Core Web Vitals and Google search  results](https://developers.google.com/search/docs/appearance/core-web-vitals)
 
 
 Questo di per sé è un forte indicatore del fatto che Google predilige siti web più veloci. Inoltre, aggiungono:
 
-> Google’s core ranking systems look to **reward content that provides a
-> good page experience**.   — [Understanding page experience in Google
-> Search
-> results](https://developers.google.com/search/docs/appearance/page-experience)
+> Google’s core ranking systems look to **reward content that provides a good page experience**.   — [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
 
 
-Le Core Web Vitals costituiscono una parte  dell'esperienza della pagina, ed è proprio questa parte che devi andare ad ottimizzare, se non hai alcun margine di miglioramento sui tuoi contenuti, e vuoi riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!!
+## In conclusione 
+Le Core Web Vitals costituiscono una parte  dell'esperienza della pagina, ed è proprio questa parte che devi andare ad ottimizzare, se non hai alcun margine di miglioramento sui tuoi contenuti, e vuoi riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
+
+
 
