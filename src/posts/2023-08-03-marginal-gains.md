@@ -54,7 +54,7 @@ Questo di per sé è un forte indicatore del fatto che Google predilige siti web
 
 
 ## In conclusione 
-Le Core Web Vitals costituiscono una parte  dell'esperienza della pagina, ed è proprio questa parte che devi andare ad ottimizzare, se non hai già fatto il massimo sui tuoi contenuti e vuoi riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
+Le Core Web Vitals costituiscono una parte  dell'esperienza della pagina, ed è proprio questa parte che devi andare ad ottimizzare se hai già fatto il massimo sui tuoi contenuti e vuoi riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
 
 
 
