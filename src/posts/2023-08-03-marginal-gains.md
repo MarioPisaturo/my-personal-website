@@ -6,7 +6,6 @@ date: 2023-08-03
 Le Core Web Vitals per l'ottimizzazione SEO: Cosa, prima di tutto, dobbiamo sapere?
 ---
 
-## Le  Core Web Vitals sono marginal gains! (e perchè dovrebbero interessare anche te)
 Quella dei marginal gains nello sport è una teoria ormai vecchia ma che conserva ancora inalterato tutto il suo fascino. In poche parole l'idea alla base dei marginal gains è che apportando una serie di piccole modifiche in diverse aree, è possibile ottenere un vantaggio cumulativo significativo.
 
 Questo concetto è diventato particolarmente noto grazie al British Cycling Team, che lo ha adottato come approccio chiave nei suoi successi olimpici e nel ciclismo su strada. Durante il periodo in cui Sir Dave Brailsford era il direttore sportivo del team britannico, ha introdotto la filosofia dei marginal gains. Ha enfatizzato l'importanza di migliorare ogni aspetto dell'esperienza ciclistica, inclusi l'allenamento, la dieta, l'attrezzatura, il recupero, la tecnologia e la mentalità dei corridori.
