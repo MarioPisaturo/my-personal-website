@@ -51,13 +51,16 @@ Questo di per sé è un forte indicatore del fatto che Google predilige siti web
 
 > Google’s core ranking systems look to **reward content that provides a good page experience**.   — [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
 
+Il che indica che le Core Web Vitals costituiscono una parte importante anche dell'esperienza utente oltre che SEO, che è poi ciò che trasforma gli utenti occasionali della pagina in nostri clienti.
+
 Con ciò in mente possiamo tornare al concetto di partenza, ovvero, le Core Web Vitals sono importanti, ma da sole non bastano. 
 
-Nell'ottica delle ottimizzazioni SEO sono **marginal gains** e dunque sono ciò che fa davvero la differenza tra il vincere e il perdere in un ambiente estremamente competitivo. 
+> …for many queries, there is lots of helpful content available. Having a great page experience can contribute to success in Search, in such cases.
+— [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience?hl=it)
 
-Inoltre le Core Web Vitals costituiscono una parte importante dell'esperienza utente oltre che SEO, che è poi ciò che trasforma gli utenti occasionali della pagina in nostri clienti.
+Le Core Web Vitals brillano dunque in ambienti estremamente competitivi e quando gli utenti non sono alla ricerca di qualcosa che solo voi potreste fornire. Quando Google può classificare in alto un alto numero di URL la vittoria, e dunque l'ordinamento, è determinata dai **marginal gains** 
 
-Ed è dunque proprio questa parte che bisogna andare a curare se si è già fatto il massimo sui contenuti e si vuole avere la possibilità di riuscire a gareggiare alla pari con i migliori per riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
+Nell'ottica delle ottimizzazioni SEO le Core Web Vitals sono quei **marginal gains** che fanno davvero la differenza tra il vincere o il perdere ed è dunque questa parte che bisogna curare se si è già fatto il massimo sui contenuti e si vuole riuscire a gareggiare alla pari con i migliori per avere metaforicamente la possibilità di vincere il Tour De France, i 100 metri o la maratona olimpica!
 
 
 
