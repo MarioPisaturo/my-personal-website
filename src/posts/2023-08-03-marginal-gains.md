@@ -1,7 +1,7 @@
 ---
 title: 'Le  Core Web Vitals sono marginal gains!'
 description: '(e dovrebbero interessare anche te)'
-date: 2023-08-03
+date: 2023-06-03
 ---
 Le Core Web Vitals per l'ottimizzazione SEO: Cosa, prima di tutto, dobbiamo sapere?
 ---
