@@ -20,14 +20,14 @@ module.exports = {
     itemsPerPage: 20
   },
   address: {
-    firma: 'Organization name',
+    firma: 'Mario Pisaturo',
     street: '123 Main St.',
     city: 'Ciudad',
     state: 'Estado',
     zip: '12345',
-    mobileDisplay: '+34 1234567',
-    mobileCall: ' +341234567',
-    email: 'hola@yoursite.com',
+    mobileDisplay: '',
+    mobileCall: ' ',
+    email: '',
     cif: ''
   },
   menu: {
