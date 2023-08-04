@@ -55,7 +55,7 @@ Con ciò in mente possiamo tornare al concetto di partenza, ovvero, le Core Web 
 
 Nell'ottica delle ottimizzazioni SEO sono **marginal gains** e dunque sono ciò che fa davvero la differenza tra il vincere e il perdere in un ambiente estremamente competitivo. 
 
-Inoltre le Core Web Vitals costituiscono una parte importante dell'esperienza utente oltre che SEO, che è poi ciò che trasformati gli utenti della pagina in nostri clienti.
+Inoltre le Core Web Vitals costituiscono una parte importante dell'esperienza utente oltre che SEO, che è poi ciò che trasforma gli utenti occasionali della pagina in nostri clienti.
 
 Ed è dunque proprio questa parte che bisogna andare a curare se si è già fatto il massimo sui contenuti e si vuole avere la possibilità di riuscire a gareggiare alla pari con i migliori per riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
 
