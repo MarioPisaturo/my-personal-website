@@ -1,6 +1,6 @@
 ---
 title: 'Le  Core Web Vitals sono marginal gains!'
-description: '(e perchè dovrebbero interessare anche te)'
+description: '(e dovrebbero interessare anche te)'
 date: 2023-08-03
 ---
 Le Core Web Vitals per l'ottimizzazione SEO: Cosa, prima di tutto, dobbiamo sapere?
@@ -38,7 +38,6 @@ Se il tuo sito è insicuro, lento e offre una esperienza mobile pessima non impo
 Bisogna tenere a mente che la missione di Google in ultima istanza non è quella di mostrare all'utente la lista dei siti più veloci in assoluto ma di rispondere in maniera il più esaustiva possibile alle richieste dell'utente.
 Il che significa dare la priorità ai contenuti rilevanti sopra ogni altra cosa. 
 
-Con ciò in mente possiamo tornare al concetto di partenza, ovvero, le Google Web Vitals sono marginal gains e dunque sono ciò che fa davvero la differenza tra il vincere e il perdere in un ambiente estremamente competitivo. 
 
 ## Le Core Web Vitals sono importanti
 
@@ -52,9 +51,13 @@ Questo di per sé è un forte indicatore del fatto che Google predilige siti web
 
 > Google’s core ranking systems look to **reward content that provides a good page experience**.   — [Understanding page experience in Google Search results](https://developers.google.com/search/docs/appearance/page-experience)
 
+Con ciò in mente possiamo tornare al concetto di partenza, ovvero, le Core Web Vitals sono importanti, ma da sole non bastano. 
 
-## In conclusione 
-Le Core Web Vitals costituiscono una parte  dell'esperienza della pagina, ed è proprio questa parte che devi andare ad ottimizzare se hai già fatto il massimo sui tuoi contenuti e vuoi riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
+Nell'ottica delle ottimizzazioni SEO sono **marginal gains** e dunque sono ciò che fa davvero la differenza tra il vincere e il perdere in un ambiente estremamente competitivo. 
+
+Inoltre le Core Web Vitals costituiscono una parte importante dell'esperienza utente oltre che SEO, che è poi ciò che trasformati gli utenti della pagina in nostri clienti.
+
+Ed è dunque proprio questa parte che bisogna andare a curare se si è già fatto il massimo sui contenuti e si vuole avere la possibilità di riuscire a gareggiare alla pari con i migliori per riuscire metaforicamente a vincere il Tour De France, i 100 metri piani o la maratona olimpica!
 
 
 
