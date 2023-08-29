@@ -1,6 +1,6 @@
 # Eleventy starter
 
-Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <https://buildexcellentwebsit.es/>.
+My Very opiniated Eleventy starter based on the workflow suggested by Andy Bell's <https://buildexcellentwebsit.es/>.
 
 - [Eleventy starter](#eleventy-starter)
   - [Preview](#preview)
@@ -36,18 +36,6 @@ This starter includes:
 - markdown handling
 - Bundling via esbuild
 
-## First steps
-
-- Search and replace '/mariopisaturo.netlify.app/' with your own domain.
-- Set your icons in assets/images/favicon
-- edit meta data in \_data/meta.js
-- edit your social media in \_data/social.js and \_includes/icons. Icons must be prefixed with "social-".
-- delete \_data/github.js and pages/github.njk, as they are just an example
-- changed routes:
-
-```
-redirectFrom: ['/old-route/', '/optionally-another-old-route/']
-```
 
 ## Development
 
@@ -72,25 +60,6 @@ Minify JS, inline and minify CSS.
 ```
 npm run build
 ```
-
-## Logbook
-
-### 22-11-04
-
-Adding blog posts for feature explanation.
-
-### 22-10-30
-
-WebC in own branch, simplify main branch
-
-### 22-10-03
-
-- first commit. Updated
-
-### 22-10-04
-
-- All markdown syntax set. Some tests with web components and webC.
-- TODO: dark mode
 
 ## Credits and Thank yous
 
