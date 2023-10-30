@@ -120,3 +120,8 @@ article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
 .preload-transitions * {
   transition: none !important;
 }
+
+/** Main container min height*/
+.main{
+  min-height: 85vh;
+}
