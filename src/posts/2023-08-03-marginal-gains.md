@@ -64,3 +64,10 @@ Nell'ottica delle ottimizzazioni SEO le Core Web Vitals sono quei **marginal gai
 
 
 
+### Fonti - Sitografia
+
+Per questo post ho preso in considerazione solo le pubblicazioni ufficiali di Google. 
+
+- [Introducing Web Vitals: essential metrics for a healthy site – Chromium Blog – 5 May, 2020](https://blog.chromium.org/2020/05/introducing-web-vitals-essential-metrics.html)
+- [Valutare l'esperienza sulle pagine per migliorare il Web, Giovedì 28 maggio 2020](https://developers.google.com/search/blog/2020/05/evaluating-page-experience?hl=it)
+- [Core Web Vitals for Search Engine Optimisation: What Do We Need to Know?](https://csswizardry.com/2023/07/core-web-vitals-for-search-engine-optimisation/)
