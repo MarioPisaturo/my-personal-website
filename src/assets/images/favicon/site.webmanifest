@@ -1,6 +1,6 @@
 {
-  "name": "Mario Pisaturo - Personal website",
-  "short_name": "Mario Pisaturo - Personal website",
+  "name": "Mario Pisaturo - Portfolio",
+  "short_name": "Mario Pisaturo",
   "start_url": "/",
   "icons": [
     {
@@ -14,7 +14,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#FF5678",
-  "background_color": "#FF5678",
+  "theme_color": "#0042bf",
+  "background_color": "#0042bf",
   "display": "standalone"
 }
