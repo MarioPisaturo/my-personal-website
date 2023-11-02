@@ -3,7 +3,6 @@ title: About
 permalink: /about/index.html
 description: About this website
 layout: page
-youtube: true
 ---
 ### Bio
 
