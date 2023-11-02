@@ -6,11 +6,11 @@ date: 2023-11-02
 Perchè dovresti "prenderli con le pinze" nella valutazione delle performances e del posizionamento del tuo sito?
 ---
 
-Probabilmente questa è una delle incomprensioni più comuni che ci si trovano davanti quando si parla di web performances e SEO. Lo score Lighthouse delle performances non ha assolutamente nessuna influenza sul posizionamento del nostro sito nei risultati di ricerca, in nessun modo.
+Probabilmente questa è una delle incomprensioni più comuni quando si parla di web performances e SEO. Lo score Lighthouse delle performances non ha assolutamente nessuna influenza sul posizionamento del nostro sito nei risultati di ricerca.
 
- I dati utilizzati da Google per determinare il posizionamento del nostro sito sono archiviati in Search Console, e Search Console non ha  nulla a che vedere con i punteggi ottenuti mediante Lighthouse 
+ I dati utilizzati da Google per determinare il posizionamento del nostro sito sono archiviati in **Search Console**, e Search Console non ha  nulla a che vedere con i punteggi ottenuti mediante Lighthouse.
  
- Anche se Google non lo dice mai esplicitamente, possiamo dedurre da una analisi della documentazione, che:
+ Anche se Google non lo dice mai esplicitamente, dall' analisi della documentazione, si evince che:
 
 >The data for the Core Web Vitals report comes from the CrUX report. The CrUX report gathers anonymized metrics about performance times from actual users visiting your URL (called field data). The CrUX database gathers information about URLs whether or not the URL is part of a Search Console property.
 – [Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=it)
