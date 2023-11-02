@@ -6,7 +6,7 @@ date: 2023-11-02
 Perchè dovresti "prenderli con le pinze" nella valutazione delle performances e del posizionamento del tuo sito?
 ---
 
-Probabilmente questa è una delle incomprensioni più comuni che ci si trova davanti quando si parla di web performances e SEO. Lo score Lighthouse delle performances non ha assolutamente nessuna influenza sul posizionamento del nostro sito nei risultati di ricerca, in nessun modo.
+Probabilmente questa è una delle incomprensioni più comuni che ci si trovano davanti quando si parla di web performances e SEO. Lo score Lighthouse delle performances non ha assolutamente nessuna influenza sul posizionamento del nostro sito nei risultati di ricerca, in nessun modo.
 
  I dati utilizzati da Google per determinare il posizionamento del nostro sito sono archiviati in Search Console, e Search Console non ha  nulla a che vedere con i punteggi ottenuti mediante Lighthouse 
  
