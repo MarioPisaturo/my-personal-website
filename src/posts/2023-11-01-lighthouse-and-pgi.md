@@ -36,11 +36,11 @@ Diagnostica i problemi di prestazioni (Lighthouse):
 Sebbene Google non dichiari mai esplicitamente cosa influenza il positizionamento nei risultati di ricerca è bene tener presente che una analisi basata solo su Lighthouse senza tenere in considerazione i dati CrUX degli utenti reali del nostro sito ci poterterà inevitabilmente a commettere degli errori di valutazione.
 
 
-Quindi il nostro obiettivo è riuscire a far combaciare insieme tutti i pezzettini del puzzle delle performances, in una comprensione a 360° delle performances del nostro sito, per far in modo che tutto funzioni al meglio senza lasciarci trarre in errore dalla sola valutazione fatta medianete Lighthouse.
+Il nostro obiettivo è riuscire a far combaciare insieme tutti i pezzettini del puzzle delle performances, in una comprensione a 360° delle performances del nostro sito. In quest'ottica capire come leggere e interpretare in maniera corretta i dati a nostra disposizione è di straordinaria importanza affinchè i nostri sforzi abbiano successo. 
 
 ### Fonti - Sitografia
 
-Per questo post ho preso in considerazione solo le pubblicazioni ufficiali di Google. 
+Per questo post ho preso in considerazione le pubblicazioni ufficiali di Google. 
 
 - [Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=it)
 - [Informazioni su PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about?hl=it)
