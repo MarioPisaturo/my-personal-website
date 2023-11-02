@@ -1,7 +1,7 @@
 module.exports = {
   top: [
     {
-      text: 'About',
+      text: 'About me',
       url: '/about/'
     },
     {
@@ -27,6 +27,22 @@ module.exports = {
     }
   ],
   bottom: [
+    {
+      text: 'About me',
+      url: '/about/'
+    },
+    {
+      text: 'What I do',
+      url: '/what-i-do/'
+    },
+    {
+      text: 'Blog',
+      url: '/blog/'
+    },
+    {
+      text: 'Links',
+      url: '/links/'
+    },
     /*
     {
       text: 'Imprint',
