@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 permalink: /about/index.html
 description: About this website
 layout: page
