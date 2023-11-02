@@ -52,8 +52,9 @@ const imageShortcodePlaceholder = async (src, alt, caption, sizes = '100vw') => 
     </picture>
     ${
       caption
-        ? `<figcaption class="cluster font-display"><p>${caption}</p>
-	</figcaption>`
+        ? `<figcaption class="cluster font-display">
+             <span class="figcaption-span">${caption}</span>
+	        </figcaption>`
         : ``
     }
 </figure>`,
