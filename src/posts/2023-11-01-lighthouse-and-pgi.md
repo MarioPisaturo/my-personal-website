@@ -27,7 +27,7 @@ e ancora:
 Quindi è molto importante leggere attentamente i dati che ci fornisce PSI e approfondire l'analisi dei dati provenienti da CRuX incrociandoli, per una analisi più dettagliata, con i dati ottenuti da Lighthouse.
 
 Scopri com'è l'esperienza dei tuoi utenti reali:
-{% imagePlaceholder "./src/assets/images/articles/psi-min.png", "PSI image ", "Nella parte superiore del report PSI possiamo notare che i dati provengono da CrUX e sono basati su dati reali aggregati" %}
+{% imagePlaceholder "./src/assets/images/articles/psi-min.png", "PSI image ", "Nella parte superiore del report PSI possiamo notare che i dati provengono da CrUX e sono basati su dati reali aggregati." %}
 
 
 Diagnostica i problemi di prestazioni (Lighthouse):
