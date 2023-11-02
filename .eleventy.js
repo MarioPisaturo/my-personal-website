@@ -51,6 +51,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
   eleventyConfig.addLayoutAlias('offline-fallback', 'offline-fallback.njk');
+  eleventyConfig.addLayoutAlias('what-i-do', 'what-i-do.njk');
 
   // 	---------------------  Custom filters -----------------------
   eleventyConfig.addFilter('limit', limit);

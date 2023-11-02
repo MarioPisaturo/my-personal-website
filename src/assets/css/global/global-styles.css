@@ -125,3 +125,10 @@ article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
 .main{
   min-height: 85vh;
 }
+
+.curve {
+  fill: var(--spot-color,var(--color-light));
+  display: block;
+  height: 3.5em;
+  width: 100%
+}

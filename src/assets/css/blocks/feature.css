@@ -1,0 +1,21 @@
+.features {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem,33%,20rem);
+    --gutter: var(--space-l-xl);
+    --flow-space: var(--space-s);
+    text-align: center
+  }
+  
+  .features svg {
+    block-size: 4em;
+    display: block;
+    margin-inline:auto}
+  
+  .features svg {
+    display: block;
+    height: 4em;
+    margin-inline:auto}
+  
+  .features a {
+    text-decoration: none
+  }
