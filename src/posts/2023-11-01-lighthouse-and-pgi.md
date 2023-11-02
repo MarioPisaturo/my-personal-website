@@ -40,7 +40,7 @@ Il nostro obiettivo è riuscire a far combaciare insieme tutti i pezzettini del 
 
 ### Fonti - Sitografia
 
-Per questo post ho preso in considerazione le pubblicazioni ufficiali di Google. 
+Per questo post ho preso in considerazione le seguenti pubblicazioni ufficiali di Google. 
 
 - [Core Web Vitals report](https://support.google.com/webmasters/answer/9205520?hl=it)
 - [Informazioni su PageSpeed Insights](https://developers.google.com/speed/docs/insights/v5/about?hl=it)
