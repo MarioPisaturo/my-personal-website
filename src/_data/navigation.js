@@ -12,10 +12,12 @@ module.exports = {
       text: 'Blog',
       url: '/blog/'
     },
+    
     {
       text: 'Links',
       url: '/links/'
     },
+    /*
     {
       text: 'Github',
       url: 'https://github.com/MarioPisaturo'
@@ -25,6 +27,7 @@ module.exports = {
       url: 'https://webperf.social/@mariopisaturo',
       rel: 'me'
     }
+    */
   ],
   bottom: [
     {
@@ -39,19 +42,11 @@ module.exports = {
       text: 'Blog',
       url: '/blog/'
     },
+    /*
     {
       text: 'Links',
       url: '/links/'
     },
-    /*
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
-    {
-      text: 'Privacy',
-      url: '/privacy/'
-    }
     */
   ]
 };

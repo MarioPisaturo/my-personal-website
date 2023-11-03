@@ -1,5 +1,10 @@
 [
   {
+    "platform": "github",
+    "url": "https://github.com/MarioPisaturo",
+    "icon": "github.svg"
+  },
+  {
     "platform": "mastodon",
     "url": "https://webperf.social/@mariopisaturo",
     "icon": "mastodon.svg"

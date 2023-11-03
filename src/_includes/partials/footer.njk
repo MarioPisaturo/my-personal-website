@@ -2,7 +2,7 @@
   <div class="wrapper">
     <div class="site-foot__inner">
       <nav id="footernav" class="site-foot__inner">
-        &copy; {% year %} <a href="/">{{ meta.siteName }}</a>
+        &copy; 2020 - {% year %} <a href="/">{{ meta.siteName }}</a>
 
         {% for item in navigation.bottom %}
 
@@ -24,7 +24,8 @@
         {% for item in social %}
         <a href="{{ item.url }}">
           <span class="sr-only">{{ item.platform }}</span>
-          <div aria-hidden="true">{% include 'icons/social-' + item.icon %}</div></a
+          <div aria-hidden="true">{% include 'icons/social-' + item.icon %}</div>
+        </a
         >
 
         {% endfor %}
