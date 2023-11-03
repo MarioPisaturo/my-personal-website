@@ -33,7 +33,7 @@ Scopri com'è l'esperienza dei tuoi utenti reali:
 Diagnostica i problemi di prestazioni (Lighthouse):
 {% imagePlaceholder "./src/assets/images/articles/li-min.png", "PSI image ", "Qui invece possiamo chiaramente vedere che questo test è stato eseguito in una data predefinita, su un dispositivo predefinito, con una velocità di connessione predefinita, su una versione di Chrome predefinita. Questo in sostanza è stato un test di pagina eseguito da noi, per noi, per scopi di debug e analisi." %}
 
-Sebbene Google non dichiari mai esplicitamente cosa influenza il positizionamento nei risultati di ricerca è bene tener presente che una analisi basata solo su Lighthouse senza tenere in considerazione i dati CrUX degli utenti reali del nostro sito ci poterterà inevitabilmente a commettere degli errori di valutazione.
+Sebbene Google non dichiari mai esplicitamente cosa influenza il posizionamento nei risultati di ricerca è bene tener presente che una analisi basata solo su Lighthouse senza tenere in considerazione i dati CrUX degli utenti reali del nostro sito ci poterterà inevitabilmente a commettere degli errori di valutazione.
 
 
 Il nostro obiettivo è riuscire a far combaciare insieme tutti i pezzettini del puzzle delle performances, in una comprensione a 360° delle performances del nostro sito. In quest'ottica capire come leggere e interpretare in maniera corretta i dati a nostra disposizione è di straordinaria importanza affinchè i nostri sforzi abbiano successo. 
