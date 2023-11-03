@@ -9,71 +9,19 @@ layout: base
             simplicity and long term support.</p>
     </div>
 </article>
+
 <article class="section spot-color-primary">
     {% include 'svg/what-i-do/curve.svg' %}
     <div class="section__inner region">
         <div class="wrapper flow">
             <ul class="features grid mt-l-xl" role="list">
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/development.svg' %}
-                    </div>
-                    <h3>
-                        Development
-                    </h3>
-                    <p>Modern web frameworks like Next.js help me to create websites based on semantic HTML, CSS and Typescript. I am a web
-                        application architect with a strong background in web development and a passion for web performances.
-                    </p>
-                </li>
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/design.svg' %}
-                    </div>
-                    <h3>
-                        Design
-                    </h3>
-                    <p>I've a decade of experience defining requirements, designing, implementing, testing and delivering complex front-end
-                        and back-end applications using variety of programming languages and technologies.
-                    </p>
-                </li>
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/seo.svg' %}
-                    </div>
-                    <h3>
-                        SEO & Web Performances
-                    </h3>
-                    <p>The secret for a good positioning is to have a website that is great in every way: Technically perfect,fast and
-                        secure, clear in terms of structure. I can help you with that.</p>
-                </li>
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/contents.svg' %}
-                    </div>
-                    <h3>
-                        Contents
-                    </h3>
-                    <p>I love creating content and sharing what I learn every day at work and during my periods of studying new technologies.</p>
-                </li>
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/maintenance.svg' %}
-                    </div>
-                    <h3>
-                        Maintenance
-                    </h3>
-                    <p>I use maintenance software to schedule, monitor, and streamline upkeep tasks, ensuring the efficient and reliable
-                        maintenance of software products.</p>
-                </li>
-                <li class="flow">
-                    <div aria-hidden="true">
-                        {% include 'svg/what-i-do/community.svg' %}
-                    </div>
-                    <h3>
-                        Community
-                    </h3>
-                    <p>I enjoy participating in community events and discussions, contributing my insights to various topics.</p>
-                </li>
+                {% for item in skills %}
+                    <li class="flow">
+                        <div aria-hidden="true">{% include item.icon %}</div>
+                        <h3>{{ item.name }}</h3>
+                        <p>{{ item.description }}</p>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>

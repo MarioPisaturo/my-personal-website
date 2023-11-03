@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Development",
+      "description":"Modern web frameworks like Next.js help me to create websites based on semantic HTML, CSS and Typescript. I am a webapplication architect with a strong background in web development and a passion for web performances.",
+      "icon": "svg/what-i-do/development.svg"
+    },
+    {
+      "name": "Design",
+      "description": "I've a decade of experience defining requirements, designing, implementing, testing and delivering complex front-end and back-end applications using variety of programming languages and technologies.",
+      "icon": "svg/what-i-do/design.svg"
+    },
+    {
+      "name": "SEO & Web Performances",
+      "description": "The secret for a good positioning is to have a website that is great in every way: Technically perfect,fast and secure, clear in terms of structure. I can help you with that.",
+      "icon": "svg/what-i-do/seo.svg"
+    },
+    {
+      "name": "Contents",
+      "description": "I love creating content and sharing what I learn every day at work and during my periods of studying new technologies.",
+      "icon": "svg/what-i-do/contents.svg"
+    },
+    {
+      "name": "Maintenance",
+      "description": "I use maintenance software to schedule, monitor, and streamline upkeep tasks, ensuring the efficient and reliable maintenance of software products.",
+      "icon": "svg/what-i-do/maintenance.svg"
+    },
+    {
+      "name": "Community",
+      "description": "I enjoy participating in community events and discussions, contributing my insights to various topics.",
+      "icon": "svg/what-i-do/community.svg"
+    }
+  ]
+  
