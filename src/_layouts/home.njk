@@ -11,15 +11,44 @@ layout: base
   {% include 'svg/divider-waves.svg' %}
 </header>
 
+<!-- Per mostrare il CONTENUTO DEL FILE .md di index.md al momento commentato per non occupare spazio
 <article class="region">
   <div class="wrapper flow prose">
     {{ content | safe }}
   </div>
 </article>
+-->
 
 <article class="region">
   <div class="wrapper flow prose">
-    <h2>{{ blog.title }}</h2>
+   <h2><a href="/about/" class="heading-anchor">{{ about.title }} </a></h2>
+        <p>
+         {{ about.intro }}
+        </p>
+      </div>
+  </div>
+</article>
+
+
+<article class="region section spot-color-secondary">
+  {% include 'svg/divider-edgy.svg' %}
+  <div class="section__inner region">
+    <div class="wrapper flow">
+      <div class="wrapper flow prose">
+        <h2><a href="/what-i-do/" class="heading-anchor">{{ whatido.title }} </a></h2>
+        <p>
+         {{ whatido.intro }}
+        </p>
+      </div>
+    </div>
+  </div>
+  {% include 'svg/divider-edgy.svg' %}
+</article>
+
+
+<article class="region">
+  <div class="wrapper flow prose">
+    <h2><a href="/blog/" class="heading-anchor">{{ blog.title }}</a></h2>
     <p>{{ blog.intro }}</p>
   </div>
   <!-- TODO: duplicate of partials/blog.njk -->
