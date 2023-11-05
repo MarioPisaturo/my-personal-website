@@ -19,33 +19,25 @@ layout: base
 </article>
 -->
 
-
 <article class="region">
   <div class="wrapper flow prose">
-   <h2><a href="/about/" class="heading-anchor">{{ about.title }} </a></h2>
-        <p>
-         {{ about.intro }}
-        </p>
-      </div>
+    <h2><a href="/about/" class="heading-anchor">{{ about.title }} </a></h2>
+    <p>{{ about.intro }}</p>
   </div>
 </article>
-
 
 <article class="region section spot-color-secondary">
   {% include 'svg/divider-edgy.svg' %}
   <div class="section__inner region">
-    <div class="wrapper flow">
-      <div class="wrapper flow prose">
-        <h2><a href="/what-i-do/" class="heading-anchor">{{ whatido.title }} </a></h2>
-        <p>
-         {{ whatido.intro }}
-        </p>
-      </div>
+    <div class="wrapper prose flow">
+      <h2>
+        <a href="/what-i-do/" class="heading-anchor">{{ whatido.title }} </a>
+      </h2>
+      <p>{{ whatido.intro }}</p>
     </div>
   </div>
   {% include 'svg/divider-edgy.svg' %}
 </article>
-
 
 <article class="region">
   <div class="wrapper flow prose">
@@ -54,8 +46,13 @@ layout: base
   </div>
   <!-- TODO: duplicate of partials/blog.njk -->
 
-  <ul class="wrapper grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4) %} {%
-    include "partials/blog-card.njk" %} {% endfor %}
+  <ul
+    class="wrapper grid mt-l-xl"
+    role="list"
+    data-rows="masonry"
+    data-layout="50-50"
+  >
+    {% set postslist = collections.posts %} {% for post in postslist.slice(0, 4)
+    %} {% include "partials/blog-card.njk" %} {% endfor %}
   </ul>
 </article>
