@@ -3,7 +3,7 @@ title: Links ’n’ stuff
 permalink: /links/index.html
 description: Links
 layout: page
-youtube: true
+youtube: false
 ---
 Places you can find me on the world wide web.
 ### Social!
