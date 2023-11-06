@@ -1,10 +1,12 @@
+import {elementIsVisibleInViewport} from './utils';
+
 // --------- SERVICE Worker
 window.addEventListener('load', () => {
   // Install Service Worker only on production
-    console.log('install service worker!');
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/service-worker.js');
-    }
+  console.log('install service worker!');
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+  }
 });
 
 // ------------------- cards redundant click, accessible whole card clickable solution by Heydon Pickering
@@ -40,7 +42,10 @@ button.addEventListener('click', e => {
 // avoid DRY: disabling menu
 const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
-  // button.focus(); disabilitato perchè comporta come side effect al click lo scroll on top della pagina
+  if (elementIsVisibleInViewport(button)) {
+    // focus solo quando in viewport perchè altrimenti comporta come side-effect al click lo scroll on top della pagina
+    button.focus();
+  }
 };
 
 //  close on escape
