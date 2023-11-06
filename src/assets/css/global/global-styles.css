@@ -95,7 +95,7 @@ a:hover {
 main:focus {
   outline: none;
 }
-
+.cta-external,
 article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
   display: inline-block;
   width: 1em;
@@ -109,6 +109,22 @@ article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
   overflow: hidden;
   white-space: nowrap;
   text-indent: 1em; /* the width of the icon */
+}
+
+.cta-external-light{
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-image: url('/assets/images/icn-external-light.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60% auto;
+  /* alternative text rules */
+  content: '(external link)';
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 1em; /* the width of the icon */
+  background-image: url('/assets/images/icn-external-light.svg');
 }
 
 /* Base selection styles that invert whatever colours are rendered */
@@ -132,4 +148,3 @@ article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
   height: 3.5em;
   width: 100%
 }
-
