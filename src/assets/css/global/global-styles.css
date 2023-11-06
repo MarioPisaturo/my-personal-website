@@ -126,6 +126,10 @@ article [href^='http']:not([href*='/mariopisaturo.netlify.app/'])::after {
   text-indent: 1em; /* the width of the icon */
   background-image: url('/assets/images/icn-external-light.svg');
 }
+.cta-external:hover,
+.cta-external-light:hover{
+  transform: scale(1) rotate(45deg);
+}
 
 /* Base selection styles that invert whatever colours are rendered */
 ::selection {

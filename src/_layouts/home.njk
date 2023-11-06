@@ -10,14 +10,19 @@ layout: base
   </div>
   {% include 'svg/divider-waves.svg' %}
 </header>
-<!-- Per mostrare il CONTENUTO DEL FILE .md di index.md al momento commentato per non occupare spazio <article
+
+<!-- Per mostrare il CONTENUTO di index.md
+<article
 class="region"> <div class="wrapper flow prose">
     {{ content | safe }}
 </div> </article> -->
+
+
 <article class="region">
   <div class="wrapper flow prose">
     <h2>
-      <a href="/about/" class="heading-anchor">{{ about.title }} <p class="cta-external"/>
+      <a href="/about/" class="heading-anchor">{{ about.title }} 
+        <a href="/about/" class="cta-external"/>
       </a>
     </h2>
     <p>{{ about.intro }}</p>
@@ -28,7 +33,8 @@ class="region"> <div class="wrapper flow prose">
   <div class="section__inner region">
     <div class="wrapper prose flow">
       <h2>
-        <a href="/what-i-do/" class="heading-anchor">{{ whatido.title }} <p class="cta-external-light"/>
+        <a href="/what-i-do/" class="heading-anchor">{{ whatido.title }} 
+          <a href="/what-i-do/" class="cta-external-light"/>
         </a>
       </h2>
       <p>{{ whatido.intro }}</p>
@@ -39,7 +45,10 @@ class="region"> <div class="wrapper flow prose">
 <article class="region">
   <div class="wrapper flow prose ">
     <h2>
-      <a href="/blog/" class="heading-anchor">{{ blog.title }}</a><p class="cta-external"/></h2>
+      <a href="/blog/" class="heading-anchor">{{ blog.title }}
+        <a href="/blog/" class="cta-external"/>
+      </a>
+    </h2>
     <p>{{ blog.intro }}</p>
   </div>
   <!-- TODO: duplicate of partials/blog.njk -->
