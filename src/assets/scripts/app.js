@@ -40,7 +40,7 @@ button.addEventListener('click', e => {
 // avoid DRY: disabling menu
 const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
-  button.focus();
+  // button.focus(); disabilitato perchè comporta come side effect al click lo scroll on top della pagina
 };
 
 //  close on escape
