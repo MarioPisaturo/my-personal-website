@@ -105,6 +105,14 @@ nav.navbar button {
   padding: var(--space-xs) 0;
 }
 
+/** For accessibility purposes on mobile*/
+nav.navbar button:focus-visible {
+  border: solid;
+  --border-color: var(--color-primary);
+  text-decoration: underline;
+}
+
+
 nav.navbar span {
   font-size: var(--size-step-0);
   font-weight: bold;

@@ -44,7 +44,7 @@ const disableMenu = () => {
   button.setAttribute('aria-expanded', false);
   if (elementIsVisibleInViewport(button)) {
     // focus solo quando in viewport perchè altrimenti comporta come side-effect al click lo scroll on top della pagina
-    button.focus();
+    button.focus({ preventScroll: true });
   }
 };
 
