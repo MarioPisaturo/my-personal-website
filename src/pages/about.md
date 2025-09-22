@@ -18,7 +18,7 @@ Other interests:
 – Books 📚
 – Nature 🍂
 
-Digital nomad - I live somewhere in Italy.
+I live somewhere in Italy.
 
 The opinions stated here are my own, not those of my company!
 
